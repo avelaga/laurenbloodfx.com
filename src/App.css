@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+/* for all pages */
+.content {
+  width: 70vw;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.gallery {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.gallery-img {
+  width: 100%;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}

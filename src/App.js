@@ -5,6 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from './Home.js';
+import Contact from './pages/Contact.js';
 import './App.css';
 
 const ErrorPage = () => {
@@ -19,7 +20,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" component={Home} />
+      <Route exact path='/' exact component={Home} />
+        <Route exact path='/contact' exact component={Contact} />
         <Route component={ErrorPage} />
       </Switch>
     </Router>
