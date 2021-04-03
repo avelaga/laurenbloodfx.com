@@ -7,8 +7,9 @@ export class Header extends PureComponent {
       <div className="header">
         <a href="/">LAUREN BLOOD SFX</a><br/>
           PRACTICAL FX MAKEUP
-        <div className="nav-link">
+          <div className="nav-link">
           <a href="/contact">Contact</a>
+          <a href="/on-setwork">On-Set Work</a>
         </div>
       </div>
     )

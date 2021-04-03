@@ -1,9 +1,16 @@
 import img1 from '../dist/images/img1.jpg';
 
-export const images = [
-  img1, img1, img1, img1, img1, img1, 
-]
-
-export const links = [
-  "collection-1", "img1", "img1", "img1", "img1", "img1", 
+export const projects = [
+  {
+    "url" : "project-1",
+    "imgs" : [img1, img1, img1],
+    "cover": img1,
+    "text": "Bthis is the body for the first project"
+    },
+  {
+    "url" : "project-2",
+    "imgs" : [img1, img1],
+      "cover": img1,
+      "text": "this si the body for the second project"
+    },
 ]

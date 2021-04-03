@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import Columned from "react-columned";
 import Header from './components/Header.js';
-import { images, links } from './images.js';
-// import img1 from '../dist/images/img1.jpg';
+import { projects } from './images.js';
 
 export class Home extends Component {
   render() {
@@ -12,9 +11,8 @@ export class Home extends Component {
         <div className="content">
         this is the home page
         <Columned columns={4} className="gallery">
-          {/* <img src={img1}/> */}
-      {images.map((value, index) => {
-        return <a href={"projects/"+links[index]}><img key={index} className="gallery-img" src={value} /></a>
+      {projects.map((value, index) => {
+        return <a key={index} href={"projects/"+value["url"]}><img  className="gallery-img" src={value["cover"]} /></a>
       })}
     </Columned>
         </div>
