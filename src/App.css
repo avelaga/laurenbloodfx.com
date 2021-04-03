@@ -43,7 +43,20 @@
   margin: auto;
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 50px;
+  animation-name: appear;
+  animation-duration: 1s;
 }
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 
 .gallery {
   margin-top: 50px;
@@ -81,4 +94,10 @@ h2 {
   width:100%;
   font-size: 35px;
   margin-bottom: 35px;
+}
+
+@media (max-width: 500px) {
+  h1, h2, h3 {
+    line-height: 40px;
+  }
 }
