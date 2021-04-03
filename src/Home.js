@@ -9,6 +9,7 @@ export class Home extends Component {
       <div>
         <Header />
         <div className="content">
+        <div className="page-title">PROJECTS</div>
         this is the home page
         <Columned columns={numColumns} className="gallery">
       {projects.map((value, index) => {

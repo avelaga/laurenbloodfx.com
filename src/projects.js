@@ -13,6 +13,36 @@ export const projects = [
       "cover": img1,
       "text": "this si the body for the second project"
     },
+    {
+      "url" : "project-2",
+      "imgs" : [img1, img1],
+        "cover": img1,
+        "text": "this si the body for the second project"
+      },
+      {
+        "url" : "project-2",
+        "imgs" : [img1, img1],
+          "cover": img1,
+          "text": "this si the body for the second project"
+        },
+        {
+          "url" : "project-2",
+          "imgs" : [img1, img1],
+            "cover": img1,
+            "text": "this si the body for the second project"
+          },
+          {
+            "url" : "project-2",
+            "imgs" : [img1, img1],
+              "cover": img1,
+              "text": "this si the body for the second project"
+            },
+            {
+              "url" : "project-2",
+              "imgs" : [img1, img1],
+                "cover": img1,
+                "text": "this si the body for the second project"
+              },
 ];
 
 export const numColumns = 4;
