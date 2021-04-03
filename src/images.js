@@ -5,5 +5,5 @@ export const images = [
 ]
 
 export const links = [
-  "img1", "img1", "img1", "img1", "img1", "img1", 
+  "collection-1", "img1", "img1", "img1", "img1", "img1", 
 ]

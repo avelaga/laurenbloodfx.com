@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Home from './Home.js';
 import Contact from './pages/Contact.js';
+import Project from './pages/Project.js';
 import './App.css';
 
 const ErrorPage = () => {
@@ -22,6 +23,7 @@ function App() {
       <Switch>
       <Route exact path='/' exact component={Home} />
         <Route exact path='/contact' exact component={Contact} />
+        <Route exact path='/projects/:id' exact component={Project} />
         <Route component={ErrorPage} />
       </Switch>
     </Router>

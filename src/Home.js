@@ -14,7 +14,7 @@ export class Home extends Component {
         <Columned columns={4} className="gallery">
           {/* <img src={img1}/> */}
       {images.map((value, index) => {
-        return <a href={links[index]}><img key={index} className="gallery-img" src={value} /></a>
+        return <a href={"projects/"+links[index]}><img key={index} className="gallery-img" src={value} /></a>
       })}
     </Columned>
         </div>
