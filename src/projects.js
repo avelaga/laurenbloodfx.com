@@ -5,7 +5,7 @@ import p3 from '../dist/images/projects/3.jpg';
 import p4 from '../dist/images/projects/4.jpg';
 import p5 from '../dist/images/projects/5.jpg';
 import p6 from '../dist/images/projects/6.jpg';
-import p7 from '../dist/images/projects/6.jpg';
+import p7 from '../dist/images/projects/7.jpg';
 import p8 from '../dist/images/projects/8.jpg';
 import p9 from '../dist/images/projects/9.jpg';
 import p10 from '../dist/images/projects/10.jpg';
