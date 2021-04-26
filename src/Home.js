@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Columned from "react-columned";
 import Header from './components/Header.js';
 import MediaQuery from 'react-responsive';
-import { projects, numColumns } from './projects.js';
+import { images, numColumns } from './projects.js';
 
 export class Home extends Component {
   render() {
@@ -15,17 +15,17 @@ export class Home extends Component {
         {/* desktop */}
         <MediaQuery minDeviceWidth={500}>
         <Columned columns={numColumns} className="gallery">
-        {projects.map((value, index) => {
-        return <a key={index} href={"projects/"+value["url"]}><img  className="gallery-img" src={value["cover"]} /></a>
+        {images.map((value, index) => {
+        return <img key={index} className="gallery-img" src={value} />
         })}
       </Columned>
       </MediaQuery>
 
       {/* mobile */}
       <MediaQuery maxDeviceWidth={500}>
-        <Columned columns={1} className="gallery">
-        {projects.map((value, index) => {
-        return <a key={index} href={"projects/"+value["url"]}><img  className="gallery-img" src={value["cover"]} /></a>
+      <Columned columns={1} className="gallery">
+        {images.map((value, index) => {
+        return <img key={index} className="gallery-img" src={value} />
         })}
       </Columned>
       </MediaQuery>
