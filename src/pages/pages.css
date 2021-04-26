@@ -15,7 +15,9 @@
 }
 
 .contact-img {
-  width: 40%;
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
 }
 
 .contact-page {
