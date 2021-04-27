@@ -4,7 +4,9 @@ import Header from './components/Header.js';
 import MediaQuery from 'react-responsive';
 import Lightbox from 'react-image-lightbox';
 import { images, numColumns } from './projects.js';
+import ScriptTag from 'react-script-tag';
 import 'react-image-lightbox/style.css';
+import './App.css';
 
 export class Home extends Component {
   constructor(props) {
@@ -27,10 +29,11 @@ export class Home extends Component {
     const { photoIndex, isOpen } = this.state;
     return (
       <div>
+        
+        <ScriptTag type="text/javascript" src="sketch.js"/>
         <Header />
         <div className="content">
         <div className="page-title">PROJECTS</div>
-
       {/* desktop */}
       <MediaQuery minDeviceWidth={500}>{this.mapImages(numColumns, images)}</MediaQuery>
 

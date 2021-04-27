@@ -120,3 +120,14 @@ h2 {
 .ril__zoomOutButton {
   background: none !important;
 }
+
+/* overrides p5 canvas */
+
+.p5canvas {
+  position: absolute !important;
+  left: 0px !important;
+  top: 0px !important; 
+  z-index: -2 !important;
+  width: 100% !important;
+  height: 100% !important;
+}

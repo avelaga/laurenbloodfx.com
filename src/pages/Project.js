@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../components/Header.js';
 import { projects } from '../projects.js';
+import ScriptTag from 'react-script-tag';
 
 export class Project extends Component {
   constructor(props) {

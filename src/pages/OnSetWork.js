@@ -3,13 +3,15 @@ import Columned from "react-columned";
 import MediaQuery from 'react-responsive';
 import { onSetWork } from '../setWork.js';
 import Header from '../components/Header.js';
+import ScriptTag from 'react-script-tag';
 import './pages.css';
 
 export class OnSetWork extends Component {
+
   render() {
     return (
       <div > 
-      {/* bandaid solution for page alignment bug */}
+        <ScriptTag type="text/javascript" src="sketch.js"/>
         <Header />
         <div className="content">
         <div className="page-title">ON-SET WORK</div>

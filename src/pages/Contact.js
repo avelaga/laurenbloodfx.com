@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import Header from '../components/Header.js';
 import contactImg from '../../dist/images/contact.jpg';
+import ScriptTag from 'react-script-tag';
 import './pages.css';
 
 export class Contact extends Component {
   render() {
     return (
       <div>
+        <ScriptTag type="text/javascript" src="sketch.js"/>
         <Header />
         <div className="content contact-page">
           <div className="page-title">CONTACT</div>
