@@ -8,7 +8,7 @@ import './pages.css';
 export class OnSetWork extends Component {
   render() {
     return (
-      <div style={{marginLeft: "15px"}}> 
+      <div > 
       {/* bandaid solution for page alignment bug */}
         <Header />
         <div className="content">

@@ -13,7 +13,8 @@ export class Contact extends Component {
           <div className="contact-text">
           I'm Lauren, I go to UT Austin for Radio-Television-Film, and I love practical FX and helping out on sets whenever I can! Most of my work is with liquid latex, 3rd Degree, and bruise palettes, but I also have experience with bald caps, prosthetics, and alcohol palettes and am always learning more and how to use new mediums. Feel free to reach out if you need FX on your set!
           <br />
-          E-mail: laurenblood83@gmail.com
+          <br />
+          laurenblood83@gmail.com
           </div>
           <img src={contactImg} className="contact-img"/>
         </div>
